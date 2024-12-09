@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <canvas id="bg"></canvas>
+    <div id="scrollContainer">
+
+      <div id="computer_screen">
+        <button id="exit-button">Exit</button>
+        <div id="website">
+          <header>
+            <h1>Welcome Gngs</h1>
+            <nav>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Credits</a></li>
+              </ul>
+            </nav>
+          </header>
+          <main>
+            <section>
+              <h2>Yap Session</h2>
+              <p  id="texts">So this site right here? It's a whole vibe, fam. It’s a compilation of all my work, built with JavaScript and that fire Three.js library.You know, it’s like how games make everything interactive and pop, that's what I’m bringing here—3D elements straight into the page. Type shi, y'feel me? It’s got that extra energy. You see me?/p>
+            </section>
+            <section>
+              <h2>Sum features gng</h2>
+              <ul>
+                <li>Interactive 3D model</li>
+                <li>Responsive design</li>
+                <li>Simple website layout</li>
+              </ul>
+            </section>
+
+            <h2>3D Model Owner!</h2>
+            <section id="credits">
+              <img src="/public/OfficeCredits.png" alt="Office Props">
+              <p>
+                Ayo, gotta give props where it's due. The model you're seeing? That’s all credit to the homie who made 
+                <a href="https://sketchfab.com/3d-models/office-props-pack-260ff7a37a674505903708a0dc513e7e" target="_blank">"seenoise"</a>. 
+                No cap, they did their thing with that. Ykwim? Respect to the creator for the work they put in!
+              </p>
+            </section>
+            
+          </main> 
+          <footer>
+            <p>&copy; 2024 My 3D Website. All rights reserved.</p>
+          </footer>
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="folder_display" id="folder1">
+        <button id="exitbtn1">Exit</button>
+        <div id="page">
+          <header>
+            <h1>CIS1102N Portfolio #1</h1>
+            <h2>Computer Science as a Discipline</h2>
+            <h2>Machine Learning</h2>
+          </header>
+          <main>
+            <section>
+              <h2>Introduction</h2>
+              <p>Machine learning is an important part of artificial intelligence (AI) that allows computers to learn from data and improve their performance over time without being specifically programmed for each task. This powerful technology is changing many industries, from healthcare to finance, by making it easier to predict outcomes, automate tasks, and make smarter decisions. This case study covers the basics of machine learning, its types, how it works, its various uses, and the challenges in applying it, showing its vital role in advancing technology.</p>
+            </section>
+            
+            <section>
+              <h2>Machine Learning Overview</h2>
+              <p>Machine learning (ML) is a field within AI and computer science that focuses on using data and algorithms to help computers learn in a way that mimics human learning, gradually improving their accuracy. It enables computers to find patterns and make predictions or decisions based on data without being directly programmed for every scenario. As computers process more data, they get better at making accurate predictions. ML is used in many areas, like personalized recommendations, self-driving cars, and voice recognition, making computers learn from experience, similar to how people do.</p>
+            </section>
+
+            <section>
+              <h2>Types of Machine Learning</h2>
+              <ul>
+                <li>Supervised Learning</li>
+                <p>This type of ML uses labeled data to train a model, where the correct answers are already known. The model learns to map inputs to the correct outputs so it can make accurate predictions on new, unseen data.</p>
+                <li>Unsupervised Learning</li>
+                <p>Here, the model looks for patterns in data that isn’t labeled. It learns from the data without any specific guidance, making it more flexible and capable of discovering hidden patterns.</p>
+                <li>Reinforcement Learning</li>
+                <p>In this approach, an agent learns to make decisions by interacting with an environment and receiving feedback in the form of rewards or penalties. The goal is to learn a strategy that maximizes rewards over time.</p>
+              </ul>
+            </section>
+
+            <section>
+              <h2>How Machine Learning Works</h2>
+              <ol>
+                <li>
+                  Data Collection and Preprocessing:
+                  <ul>
+                    <li>Data Collection:</li>
+                    <p>Involves gathering data from various sources, such as historical records or online data, to train the algorithms. For example, banks use past data to assess creditworthiness, while online data is used to detect fraud or personalize content.</p>
+                    <li>Preprocessing:</li>
+                    <p>This step involves cleaning and preparing data to make it suitable for training. Good preprocessing can significantly improve the performance of machine learning models.</p>
+                  </ul>
+                </li>
+
+                <li>
+                  Model Training, Evaluation, and Tuning:
+                  <ul>
+                    <li>Training:</li>
+                    <p>The model learns from the data, adjusting its parameters to reduce errors and improve its accuracy.</p>
+                    <li>Evaluation:</li>
+                    <p>The model is tested on new data to check how well it can predict or classify correctly.</p>
+                    <li>Tuning:</li>
+                    <p>Adjusting the model’s settings to make it as accurate as possible based on its performance.</p>
+                  </ul>
+                </li>
+              </ol>
+            </section>
+
+            <section>
+              <h2>Applications of Machine Learning</h2>
+              <ul>
+                <li>Healthcare</li>
+                <p>Machine learning helps in predicting diseases, diagnosing them early, and personalizing treatment by analyzing large amounts of medical data.</p>
+                <li>Finance</li>
+                <p>It improves strategies for investments, manages risks, detects fraud, and enhances data security by making accurate predictions and automating tasks.</p>
+                <li>Transportation</li>
+                <p>ML is used to manage traffic, plan routes, and improve public transport systems by analyzing real-time data for better safety and efficiency.</p>
+              </ul>
+            </section>
+
+            <section>
+              <h2>Challenges in Machine Learning</h2>
+              <ul>
+                <li>Data Availability: Ensuring enough high-quality data is available for training models.</li>
+                <li>Missing Data: Dealing with incomplete datasets that can reduce accuracy.</li>
+                <li>Hardware Limitations: Needing powerful computers to handle large datasets and complex calculations.</li>
+                <li>Implementation Difficulties: Developing, optimizing, and deploying ML models requires careful planning and expertise.</li>
+                <li>Data Protection: Addressing privacy and ethical concerns when using data.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2>Conclusion</h2>
+              <p>Machine learning is a powerful tool with wide applications, from automating tasks to providing insights from large datasets. Although there are challenges like data availability, computing power, and privacy concerns, machine learning continues to advance and offers tremendous potential to transform industries and everyday life.</p>
+            </section>
+
+            <section>
+              <h2>5 Computing Disciplines</h2>
+              <ul>
+                <li>
+                  <strong>Computer Science:</strong>
+                  <p>Computer Science (CS) is a broad field that goes beyond programming. It includes developing software and applications, creating algorithms and data structures, and researching new technologies and computational theories.</p>
+                </li>
+                <li>
+                  <strong>Software Engineer:</strong>
+                  <p>Software Engineering (SE) focuses on designing, developing, and maintaining software systems, including managing projects and ensuring software quality assurance.</p>
+                </li>
+                <li>
+                  <strong>Computer Engineer:</strong>
+                  <p>Computer Engineering (CE) merges electrical engineering with computer science to design and optimize computer hardware and systems, including embedded systems and hardware-software integration.</p>
+                </li>
+                <li>
+                  <strong>Information Technology:</strong>
+                  <p>Information Technology (IT) is about using technology to manage, process, and protect information, enhancing business operations, and providing technical support.</p>
+                </li>
+                <li>
+                  <strong>Information Systems:</strong>
+                  <p>Information Systems (IS) uses technology to manage and process information within an organization, supporting business operations and decision-making.</p>
+                </li>
+              </ul>
+            </section>
+
+            <section>
+              <h2>Reflection</h2>
+              <p>Each computing discipline has its unique focus, but they all work together to advance technology. The variety in fields, such as software engineering and information systems, shows why specialized education is crucial. Ensuring that education evolves to meet the needs of each field is key to preparing people for the diverse demands in computing.</p>
+            </section>
+
+            <section>
+              <h2>About Me</h2>
+              <p>Hey, I’m Lencel Arnoco. I went to Mabolo National HighSchool and I've got 20 cats and a dog—yeah, I’m a bit of an animal lover. I’m into coding but not a fan of math; I’m here for the coding part of computer science. Outside of tech, I’m into puzzles and problem-solving (just not the math stuff). I try to stay active and hit the gym when I can, even if I’m not always consistent. Just keeping things real and finding new challenges to dive into.</p>
+            </section>
+
+          </main>
+        </div>
+      </div>
+
+      <div class="folder_display" id="folder2">
+        <button id="exitbtn2">Exit</button>
+        <div id="page">
+          <header>
+            <h1>CIS1102N Portfolio #2</h1>
+            <h2>Data, Information, and Information Systems</h2>
+          </header>
+          <main>
+            <section>
+              <h2>Introduction</h2>
+              <p>
+                Facts and figures form data, while information is processed data that helps businesses make informed decisions and plan strategies. Information systems manage, store, and process data to transform it into useful insights, supporting various levels of decision-making, from routine tasks to long-term planning.
+              </p>
+              <p>
+                This paper will discuss the importance of data and information, explain what information systems are, and explore different types of support systems used in organizations. Understanding these concepts helps us see how businesses use data to succeed in a rapidly changing world.
+              </p>
+            </section>
+            <section>
+              <h2>Data and Information</h2>
+              <p>
+                Data consists of raw, unprocessed facts, while information is data that has been organized and interpreted to provide meaning and context for decision-making. Information systems convert data into information to reveal patterns and insights that guide organizational strategies. Understanding the difference between data and information is essential for managing these resources effectively.
+              </p>
+              <p>
+                The era of big data brings massive amounts of diverse data, requiring advanced analytics to extract valuable information, which is key to innovation and competitiveness. This data-driven decision-making also emphasizes the need for skills in data literacy and analytics.
+              </p>
+            </section>
+            <section>
+              <h2>Information Systems</h2>
+              <p>
+                Information systems are tools that manage and process data to support decision-making and improve operational efficiency. They include hardware, software, data, procedures, and people working together to collect, process, store, and distribute information. Information systems help turn raw data into meaningful insights, aiding organizations in making better decisions and improving their performance.
+              </p>
+            </section>
+            <section>
+              <h2>Types of Information Systems</h2>
+              <ul>
+                <li><strong>Transaction Processing Systems (TPS):</strong> Handle routine transactions like order processing and payroll, ensuring accuracy and efficiency in daily operations.</li>
+                <li><strong>Management Information Systems (MIS):</strong> Provide managers with regular reports on operational performance to monitor and control activities.</li>
+                <li><strong>Decision Support Systems (DSS):</strong> Assist in complex decision-making with analytical tools, supporting semi-structured and unstructured decisions.</li>
+                <li><strong>Executive Information Systems (EIS):</strong> Offer top executives access to summarized data and key performance indicators for strategic decision-making.</li>
+                <li><strong>Knowledge Management Systems (KMS):</strong> Facilitate the creation, sharing, and management of organizational knowledge to improve learning and collaboration.</li>
+              </ul>
+            </section>
+            <section>
+              <h2>Different Types of Support Systems in Information Systems</h2>
+              <p>Support systems enhance decision-making and efficiency at different organizational levels. Key types include:</p>
+              <ul>
+                <li><strong>Decision Support Systems (DSS):</strong> Help managers make informed decisions with data analysis tools, simulations, and modeling techniques.</li>
+                <li><strong>Executive Information Systems (EIS):</strong> Provide senior management with easy access to critical data in a visual format to support strategic goals.</li>
+                <li><strong>Knowledge Management Systems (KMS):</strong> Promote knowledge sharing and organization across the organization, enhancing collaboration and innovation.</li>
+                <li><strong>Expert Systems:</strong> Use AI and rules-based reasoning to replicate expert decision-making in specialized areas.</li>
+                <li><strong>Customer Relationship Management Systems (CRM):</strong> Manage interactions with customers to boost satisfaction, loyalty, and retention.</li>
+              </ul>
+              <p>By understanding these systems and how they function, organizations can effectively utilize data to remain competitive and responsive to market changes.</p>
+            </section>
+            <section>
+              <h2>Reflection</h2>
+              <p>
+                The exploration of data, information, and information systems shows how important they are for the success and growth of modern organizations. In today’s digital world, where there’s more and more data being created, it’s really important to know the difference between raw data and useful information. Data, which is just raw facts and figures, needs to be processed and analyzed to become valuable information that helps with decision-making and planning.
+              </p>
+              <p>
+                Information systems play a key role in this transformation. These systems, which include hardware, software, data, procedures, and people, work together to manage, store, and process data. By turning raw data into useful insights, information systems help organizations make informed decisions that can improve their efficiency and help them succeed. Different types of information systems, like Transaction Processing Systems (TPS), Management Information Systems (MIS), Decision Support Systems (DSS), Executive Information Systems (EIS), and Knowledge Management Systems (KMS), show the many ways data can be used to support various levels of decision-making in an organization.
+              </p>
+              <p>
+                Transaction Processing Systems handle routine transactions and make sure they are accurate and efficient, while Management Information Systems give managers regular reports on performance to help them monitor and control activities. Decision Support Systems help with complex decisions by providing analytical tools and models, while Executive Information Systems offer top executives quick access to summarized data and key performance indicators. Knowledge Management Systems help with creating, sharing, and managing knowledge in an organization, which boosts collaboration and innovation.
+              </p>
+              <p>
+                Support systems, like DSS, EIS, and KMS, are meant to improve decision-making and efficiency in organizations. They provide tools and frameworks needed for both daily tasks and complex planning. These systems help organizations adapt to changes, use new technologies, and stay competitive.
+              </p>
+              <p>
+                Reflecting on the importance of these systems shows how essential they are for dealing with the complexities of the digital world. Being able to manage and process data well not only helps with daily operations but also supports long-term goals. As technology keeps advancing, the role of information systems in turning data into actionable insights will keep being crucial for success. Investing in and understanding these systems is key for organizations that want to do well in a fast-changing environment.
+              </p>
+              <p>
+                In conclusion, looking at data, information, and information systems highlights their big impact on modern business. By using these systems effectively, organizations can make better decisions, improve efficiency, and meet their goals. As technology advances, the importance of these systems will only grow, so businesses need to stay up-to-date and skilled in using them.
+              </p>
+            </section>
+          </main>
+        </div>
+      </div>
+      
+      <div class="folder_display" id="folder3">
+        <button id="exitbtn3">Exit</button>
+        <div id="page">
+          <header>
+            <h1>CIS1102N Portfolio #3</h1>
+            <h1>NUMBER SYSTEMS</h1>
+            <h2>LET'S START</h2>
+          </header>
+          <main>
+            <section>
+              <h2>TOPICS</h2>
+              <ul>
+                <li>WHAT ARE NUMBER SYSTEMS?</li>
+                <li>TYPES OF NUMBER SYSTEMS</li>
+                <li>WHAT ARE ITS USES?</li>
+              </ul>
+            </section>
+            <section>
+              <h2>WHAT ARE NUMBER SYSTEMS?</h2>
+              <p>
+                Number systems are methods of representing numerical quantities in mathematics and computing by expressing them in various ways.
+              </p>
+            </section>
+            <section>
+              <h2>COMMONLY USED NUMBER SYSTEMS</h2>
+              <ul>
+                <li><strong>Binary (Base 2):</strong> Uses two symbols: 0 and 1.</li>
+                <li><strong>Octal (Base 8):</strong> Uses symbols 0 through 7.</li>
+                <li><strong>Hexadecimal (Base 16):</strong> Uses symbols 0-9 and A-F.</li>
+                <li><strong>Decimal (Base 10):</strong> Uses symbols 0 through 9.</li>
+              </ul>
+            </section>
+            <section>
+              <h2>BINARY (BASE 2)</h2>
+              <p>Symbols: 0, 1</p>
+              <p>Use: Represent data with two states (on/off). Used in computing and digital electronics.</p>
+            </section>
+            <section>
+              <h2>OCTAL (BASE 8)</h2>
+              <p>Symbols: 0 through 7</p>
+              <p>Use: Compresses binary numbers into fewer digits, historically used in early computing systems.</p>
+            </section>
+            <section>
+              <h2>DECIMAL (BASE 10)</h2>
+              <p>Symbols: 0 through 9</p>
+              <p>Use: The system humans use in daily life for calculations like money and measurement.</p>
+            </section>
+            <section>
+              <h2>HEXADECIMAL (BASE 16)</h2>
+              <p>Symbols: 0-9 and A-F</p>
+              <p>Use: Condenses binary numbers into a readable form, used in programming and memory addressing.</p>
+            </section>
+            <section>
+              <h2>TYPES OF NUMBER SYSTEMS</h2>
+              <h3>DECIMAL (BASE 10)</h3>
+              <p>The most familiar number system in daily life, consisting of ten unique digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.</p>
+              <p>Example: In 347, 3 represents 3 × 10², 4 represents 4 × 10¹, and 7 represents 7 × 10⁰.</p>
+              
+              <h3>BINARY (BASE 2)</h3>
+              <p>Used in digital electronics and computers, using only 0 and 1.</p>
+              <p>Example: 101 in binary equals 5 in decimal (1 × 2² + 0 × 2¹ + 1 × 2⁰).</p>
+              
+              <h3>OCTAL (BASE 8)</h3>
+              <p>Uses eight digits: 0 through 7. A base-8 system simplifying binary numbers.</p>
+              <p>Example: 11010110 in binary equals 326 in octal.</p>
+              
+              <h3>HEXADECIMAL (BASE 16)</h3>
+              <p>Uses 16 symbols: 0-9 and A-F.</p>
+              <p>Example: 11111010 in binary equals FA in hexadecimal.</p>
+            </section>
+            <section>
+              <h2>WHAT ARE THE USES OF THESE?</h2>
+              <h3>Mathematics:</h3>
+              <p>Number systems are essential in performing arithmetic operations and solving equations.</p>
+              
+              <h3>Computer Science:</h3>
+              <p>Binary is crucial for computer operations, while hexadecimal is often used in programming and memory addressing.</p>
+              
+              <h3>Digital Electronics:</h3>
+              <p>Used in designing circuits, where binary is used in logic gates, and octal/hexadecimal simplifies binary data for humans.</p>
+            </section>
+            <section>
+              <h2>SIGNIFICANCE</h2>
+              <ul>
+                <li>Decimal: Easy for daily use.</li>
+                <li>Binary: Essential for digital systems and computing.</li>
+                <li>Octal: Useful in older systems.</li>
+                <li>Hexadecimal: Simplifies binary in modern programming.</li>
+              </ul>
+            </section>
+            <section>
+              <h2>REFLECTION</h2>
+              <p>
+                Learning about number systems helps us understand their use in both daily life and advanced technology. Decimal is intuitive for us, while binary powers digital systems. Octal and hexadecimal make working with binary easier, especially in older or technical contexts.
+              </p>
+              <p>
+                Understanding these systems gives insight into how numbers work across different applications—from simple math to cutting-edge technology.
+              </p>
+            </section>
+          </main>
+        </div>
+      </div>
+    
+  </div>
+    
+
+    <script type="module" src="/src/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three/examples/jsm/controls/PointerLockControls.js"></script>
+
+  </body>
+</html>
